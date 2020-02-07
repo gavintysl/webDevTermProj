@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="wargame.css">
+<title>Gavin Tysl | term project</title>
+</head>
+
+<h1> An endless card game of War! Play against the computer and reign supreme! </h1>
+<h2> Game and term project created by Gavin Tysl </h2>
+
+<body>
+<h3 class="center">
+	<p id="user"> </p>
+	<p id="comp"></p>
+</h3>
+
+<!-- <p>User's Deck</p> -->
+<!-- <p class="right">Computer's Deck</p> -->
+
+<!-- <img id="cardbottom1" /> <!-- id for bottom of card -->
+<img id="usercard" /> <!-- id for card for user -->
+<!-- <img id="cardbottom2", class="right" /> <!-- id for bottom of card --> 
+<img id="computercard", class="right" /> <!-- id for card for computer -->
+
+<br>
+
+<div>
+
+<br>
+
+<img id="warcard1" />
+<img id="warcard2" /> 
+<img id="warcard3" />
+<img id="warcard4", class="right" />
+<img id="warcard5", class="right" />
+<img id="warcard6", class="right" />
+
+<br>
+
+</div>
+
+<div>
+
+<br>
+
+</div>
+
+<div>
+
+<button type="button" onclick="shuffleCards()"> Deal cards! </button>
+<button type="button" onclick="resetGame()"> New game </button>
+<button type="button" onclick="document.getElementById('howtoplay').style.display='block'">Game Rules</button>
+
+<p id="howtoplay" style="display:none">The game is simple. Draw one card and compare it against the computer's. Highest card wins, and winner takes both cards. Play until one person has all of the cards. In the event of a tie, THERE WILL BE WAR. Three cards will be drawn from each deck (if available) and the fourth card from each will be compared. Highest card wins. Winner takes all 8 cards.</p>
+
+</div>
+
+<br>
+
+<footer> Special thanks to Ryan "Shoresy" Bodeker for the project idea! </footer>
+<script src ="wargame.js" type = "text/javascript"></script>
+</body>
+</html>
