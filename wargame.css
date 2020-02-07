@@ -1,0 +1,49 @@
+body {
+	font-family: arial;
+	background-image: url("websitebackground.png");
+	background-repeat: repeat-x;
+}
+
+h3{
+	border-style: solid;
+	border-color: black;
+}
+
+.center {
+  text-align: center;
+  border: 3px solid green;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+img{
+	width: 125px; 
+	height: 150px;
+}
+
+.right {
+  float: right;
+}
+
+
+
+h1{
+	text-align: center;
+}
+
+div{
+
+}
+
+button{
+	width: 275px;    
+	font-size: 130%;          
+	margin: 0px 0px 10px 10px;    
+	padding: 10px;    
+	border-top: 1px solid #665544;    
+	border-bottom: 1px solid #665544;
+	display: block;  
+	margin: 0px auto;
+}
